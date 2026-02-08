@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the SDI paper."
+title: "Step-Decomposed Influence (SDI)"
+version: 0.1.0
+date-released: 2026-02-07
+authors:
+  - family-names: Kaissis
+    given-names: Georgios
+    affiliation: Hasso-Plattner Institute
+  - family-names: Mildenberger
+    given-names: David
+    affiliation: Technical University of Munich
+  - family-names: Gomez
+    given-names: Felipe
+    affiliation: Harvard University
+  - family-names: Menten
+    given-names: Martin
+    affiliation: Technical University of Munich
+  - family-names: Triantafillou
+    given-names: Eleni
+    affiliation: Google DeepMind
+preferred-citation:
+  type: article
+  title: "Step-Resolved Data Attribution for Looped Transformers"
+  authors:
+    - family-names: Kaissis
+      given-names: Georgios
+    - family-names: Mildenberger
+      given-names: David
+    - family-names: Gomez
+      given-names: Felipe
+    - family-names: Menten
+      given-names: Martin
+    - family-names: Triantafillou
+      given-names: Eleni
+  year: 2026
+  notes: "arXiv preprint"
