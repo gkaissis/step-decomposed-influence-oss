@@ -1,6 +1,6 @@
 [project]
 name = "step-decomposed-influence"
-version = "0.1.0"
+version = "0.1.1"
 description = "Step-Decomposed Influence (SDI) and fast TracIn for (looped) transformers."
 readme = "README.md"
 requires-python = ">=3.10"
