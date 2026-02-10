@@ -2,7 +2,7 @@
 
 Step-Decomposed Influence (SDI) decomposes TracIn into a **step-resolved influence trajectory** for looped/weight-tied models. This reference implementation computes **per-step influence** while avoiding per-example gradient materialization by sketching **during** backprop (TensorSketch for 2D weights, CountSketch for 1D params).
 
-Paper (placeholder): https://arxiv.org/abs/XXXX.XXXXX
+Paper: https://arxiv.org/abs/XXXX.XXXXX
 
 ## Install (UV-first)
 
@@ -110,6 +110,6 @@ For citing the paper, use:
 
 - Georgios Kaissis (Hasso-Plattner Institute)
 - David Mildenberger (Technical University of Munich)
-- Felipe Gomez (Harvard University)
-- Martin Menten (Technical University of Munich)
+- Juan Felipe Gomez (Harvard University)
+- Martin J. Menten (Technical University of Munich)
 - Eleni Triantafillou (Google DeepMind)
