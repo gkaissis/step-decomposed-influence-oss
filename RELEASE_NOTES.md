@@ -1,3 +1,9 @@
+# Release Notes v0.1.1
+
+## Highlights
+- Updated paper references and arXiv links.
+- Improved citation metadata in `CITATION.cff`.
+
 # Release Notes v0.1.0
 
 ## Highlights

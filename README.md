@@ -2,7 +2,7 @@
 
 Step-Decomposed Influence (SDI) decomposes TracIn into a **step-resolved influence trajectory** for looped/weight-tied models. This reference implementation computes **per-step influence** while avoiding per-example gradient materialization by sketching **during** backprop (TensorSketch for 2D weights, CountSketch for 1D params).
 
-Paper: https://arxiv.org/abs/XXXX.XXXXX
+Paper: https://arxiv.org/abs/2602.10097
 
 ## Install (UV-first)
 
@@ -98,11 +98,15 @@ button.
 For citing the paper, use:
 
 ```bibtex
-@article{kaissis2026sdi,
-  title  = {Step-Resolved Data Attribution for Looped Transformers},
-  author = {Georgios Kaissis and David Mildenberger and Felipe Gomez and Martin Menten and Eleni Triantafillou},
-  year   = {2026},
-  note   = {arXiv preprint},
+@article{kaissis2026step,
+  title         = {Step-resolved data attribution for looped transformers},
+  author        = {Georgios Kaissis and David Mildenberger and Juan Felipe Gomez and Martin J. Menten and Eleni Triantafillou},
+  year          = {2026},
+  journal       = {arXiv preprint arXiv:2602.10097},
+  eprint        = {2602.10097},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2602.10097},
 }
 ```
 
